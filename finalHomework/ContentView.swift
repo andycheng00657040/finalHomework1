@@ -10,7 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        TabView{
+            ubikeView()
+                .tabItem{
+                    Image(systemName:"house.fill")
+                    Text("主頁")}
+        
+        }
     }
 }
 
